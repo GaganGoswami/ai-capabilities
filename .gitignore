@@ -1,0 +1,69 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Conda or virtual environments
+env/
+venv/
+
+# MacOS
+.DS_Store
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Environment variables
+.env
+
+# Model/weights files
+*.h5
+*.pth
+*.pt
+
+# Logs
+logs/
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# Local testing files
+*.local
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.yaml
+*.yml
+
+# Large language model files
+*.bin
+*.ckpt

@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        return sentiment_scores, token_counts        sentiment_scores = self.analyzer.polarity_scores(' '.join(tokens))        token_counts = Counter(tokens)        tokens = self.preprocess_text(text)    def analyze_sentiment(self, text):        return tokens        tokens = [word for word in tokens if word not in self.stop_words]        tokens = word_tokenize(text)        text = re.sub(f'[{re.escape(string.punctuation)}]', '', text)        text = text.lower()    def preprocess_text(self, text):        self.analyzer = SentimentIntensityAnalyzer()        self.stop_words = set(stopwords.words('english'))    def __init__(self):class SentimentAnalyzer:from nltk.sentiment.vader import SentimentIntensityAnalyzerfrom nltk.tokenize import word_tokenizefrom nltk.corpus import stopwordsfrom collections import Counterimport stringimport re
